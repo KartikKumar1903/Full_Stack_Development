@@ -1,0 +1,38 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 20px solid black; */
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-wrapper
+{
+    /* border-bottom: 12px solid slateblue; */
+    box-shadow: 0px 10px 0px 0px lightgray;
+    background-color: lightgreen;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    width: 500px;
+    /* gap: 20px; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+img
+{
+    width: 150px;
+    height: auto;
+}
+
+.my-details
+{
+    /* border: 2px solid green; */
+    text-align: center;
+}
